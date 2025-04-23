@@ -1,0 +1,8 @@
+# An Automated Deep Learning Model for Detecting Image Forgeries
+This project identifies manipulated images by applying Error Level Analysis (ELA) to expose altered areas and utilizes a Convolutional Neural Network (CNN) to differentiate between authentic and fake images. Techniques like data augmentation, early stopping, and evaluation through accuracy and confusion matrices are used to enhance and assess the model's performance.
+
+## Project Abstract
+Fake image detection has emerged as a critical research area in response to the widespread dissemination of manipulated visual content across various online platforms. This paper introduces a novel approach for detecting fake images, utilizing a combination of Error-Level Analysis (ELA) and Convolutional Neural Networks (CNNs) based on deep learning techniques. ELA, a forensic methodology, identifies potential areas of digital alteration within an image by assessing the error levels introduced during compression. We exploit ELA to preprocess images, extracting informative features that are subsequently utilized in a CNN architecture for classification purposes. The model is extensively trained and evaluated using a dataset that includes a wide range of authentic and altered photos. It achieves an accuracy of 95.15% after undergoing 30 epochs of training. Empirical results underscore the efficacy of our approach in accurately discerning between authentic and fake images.
+
+# Proposed Model Architecture
+![image alt](https://github.com/Shishir-Kumar-Raj/Major-Project/blob/4899a8eaf331ae856223491acd83d1460e1cd5e7/Proposed%20Model%20Architecture/Proposed%20Model%20Architecture.png)
