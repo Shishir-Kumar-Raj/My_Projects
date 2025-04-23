@@ -16,7 +16,7 @@
     width: 120px;
 }
 .logo{
-    background-image: url("nav_logo.png");
+    background-image: url("images/nav_logo.png");
     background-size: cover;/*cover entire area of element*/
     height: 50px;
     width: 100%;
@@ -157,11 +157,10 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-image: url('hero_bg.png'); 
+    background-image: url('images/hero_bg.png'); 
     background-size: 50%; 
     background-repeat: no-repeat;/*not repeat one image*/ 
     background-position: center 50px;
-    
 }
 .hero_left p{
     color:white;
@@ -235,7 +234,7 @@ ul a{
     align-items: center;
 }
 .logo{
-    background-image: url("nav_logo.png");
+    background-image: url("images/nav_logo.png");
     background-size: cover;/*cover entire area of element*/
     height: 50px;
     width: 100px;
